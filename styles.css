@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+}
+
+h2 {
+    color: #e60012; 
+}
+
+
+
+footer {
+    background-color: #e60012;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #e60012; /* Toshiba red */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff; /* White text for contrast */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White icon for visibility */
+}
