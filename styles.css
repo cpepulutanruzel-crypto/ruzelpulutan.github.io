@@ -1,30 +1,64 @@
+.hidden {
+    display: none;
+    transition: all 0.5s;
+}
+
+#profile-pic {
+    transition: all 0.5s;
+}
+
+.card-text {
+    margin-top: 0.5rem;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
 }
 
-h2 {
-    color: #e60012; 
+#landing {
+    transition: all 0.5s ease;
 }
 
-
-
-footer {
-    background-color: #e60012;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+#about-text {
+    max-width: 600px;
 }
 
 
-.navbar {
-    background-color: #e60012; /* Toshiba red */
+
+.btn-toshiba {
+    background-color: #E60012;
+    color: white;
+    border: none;
+    transition: 0.3s;
 }
 
-.navbar-brand, .nav-link {
-    color: #ffffff; /* White text for contrast */
+.btn-toshiba:hover {
+    background-color: #B2000E;
 }
 
-.navbar-toggler-icon {
-    background-color: #ffffff; /* White icon for visibility */
+
+.btn-toshiba-outline {
+    background-color: white;
+    color: #E60012;
+    border: 2px solid #E60012;
+    transition: 0.3s;
+}
+
+.btn-toshiba-outline:hover {
+    background-color: #E60012;
+    color: white;
+}
+
+#landing h1,
+#landing h5,
+#about-text h2,
+#projects-section h2,
+#contact-section h2 {
+    color: #E60012;
+    /* Toshiba red */
+}
+
+#job-title {
+    color: #333333;
+    /* dark gray for subtitle */
 }
