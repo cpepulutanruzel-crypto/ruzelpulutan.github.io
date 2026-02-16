@@ -1,3 +1,6 @@
+console.log("Script loaded!");   // Check browser console
+
+
 function showProjects() {
     document.getElementById('profile-pic').style.width = '120px';
     document.getElementById('about-text').style.display = 'none';
